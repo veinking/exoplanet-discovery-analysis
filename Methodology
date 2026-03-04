@@ -1,0 +1,34 @@
+## Methodology
+
+The analysis follows a structured data analysis pipeline:
+
+1. Data Import  
+   - Load NASA Kepler exoplanet dataset using Pandas.
+
+2. Data Filtering  
+   - Filter dataset to include only confirmed exoplanets.
+
+3. Feature Selection  
+   - Retain key variables including:
+     - Planet radius
+     - Stellar energy received
+     - Detection confidence score
+
+4. Feature Engineering  
+   - Create size categories for planets:
+     - Earth-like
+     - Super Earth-like
+     - Neptune-like
+     - Gas Giant
+
+5. Distribution Analysis  
+   - Analyze frequency of planets across size categories.
+
+6. Stellar Energy Analysis  
+   - Segment planets by stellar energy exposure levels.
+
+7. Aggregation
+   - Calculate average discovery confidence for each planet size category.
+
+8. Data Export
+   - Generate clean datasets for visualization in Tableau.
