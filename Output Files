@@ -1,0 +1,8 @@
+## Output Data
+
+The analysis exports cleaned datasets used for visualization:
+
+- confirmed_exoplanets.csv
+- size_dist.csv
+- energy_dist.csv
+- confidence_by_size.csv
